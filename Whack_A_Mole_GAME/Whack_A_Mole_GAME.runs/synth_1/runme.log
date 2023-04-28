@@ -1,0 +1,724 @@
+
+*** Running vivado
+    with args -log Whack_a_mole.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Whack_a_mole.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Whack_a_mole.tcl -notrace
+Command: synth_design -top Whack_a_mole -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11332 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 430.301 ; gain = 98.422
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Whack_a_mole' [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/Whack_a_mole.v:23]
+INFO: [Synth 8-6157] synthesizing module 'game_start' [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_start.v:23]
+	Parameter T0001S bound to: 17'b11000011010100000 
+	Parameter T5S bound to: 30'b011101110011010110010100000000 
+	Parameter _0 bound to: 8'b11000000 
+	Parameter _1 bound to: 8'b11111001 
+	Parameter _2 bound to: 8'b10100100 
+	Parameter _3 bound to: 8'b10110000 
+	Parameter _4 bound to: 8'b10011001 
+	Parameter _5 bound to: 8'b10010010 
+	Parameter _6 bound to: 8'b10000010 
+	Parameter _7 bound to: 8'b11111000 
+	Parameter _8 bound to: 8'b10000000 
+	Parameter _d bound to: 8'b10100001 
+	Parameter _I bound to: 8'b11111001 
+	Parameter _F bound to: 8'b10001110 
+	Parameter __ bound to: 8'b01111111 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_start.v:108]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_start.v:118]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_start.v:128]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_start.v:138]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_start.v:148]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_start.v:158]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_start.v:168]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_start.v:178]
+INFO: [Synth 8-6155] done synthesizing module 'game_start' (1#1) [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_start.v:23]
+INFO: [Synth 8-6157] synthesizing module 'game_ready' [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_ready.v:23]
+	Parameter T0001S bound to: 17'b11000011010100000 
+	Parameter T033S bound to: 25'b1111101111000101001000000 
+	Parameter T3S bound to: 29'b10001111000011010001100000000 
+	Parameter _R bound to: 8'b10001000 
+	Parameter _E bound to: 8'b10000110 
+	Parameter _A bound to: 8'b10001000 
+	Parameter _D bound to: 8'b11000000 
+	Parameter _Y bound to: 8'b10010001 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_ready.v:100]
+INFO: [Synth 8-6155] done synthesizing module 'game_ready' (2#1) [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_ready.v:23]
+INFO: [Synth 8-6157] synthesizing module 'game_count_down' [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_count_down.v:23]
+	Parameter T0001S bound to: 17'b11000011010100000 
+	Parameter T1S bound to: 27'b101111101011110000100000000 
+	Parameter T6S bound to: 30'b100011110000110100011000000000 
+	Parameter _0 bound to: 8'b11000000 
+	Parameter _1 bound to: 8'b11111001 
+	Parameter _2 bound to: 8'b10100100 
+	Parameter _3 bound to: 8'b10110000 
+	Parameter _4 bound to: 8'b10011001 
+	Parameter _5 bound to: 8'b10010010 
+	Parameter _G bound to: 8'b10000010 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_count_down.v:113]
+INFO: [Synth 8-6155] done synthesizing module 'game_count_down' (3#1) [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_count_down.v:23]
+INFO: [Synth 8-6157] synthesizing module 'game_loop' [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_loop.v:23]
+	Parameter _r bound to: 8'b11111001 
+	Parameter _d bound to: 8'b11110111 
+	Parameter _m bound to: 8'b10111111 
+	Parameter _l bound to: 8'b11001111 
+	Parameter _u bound to: 8'b11111110 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_loop.v:106]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_loop.v:139]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_loop.v:131]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_loop.v:195]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_loop.v:190]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_loop.v:215]
+INFO: [Synth 8-6155] done synthesizing module 'game_loop' (4#1) [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_loop.v:23]
+INFO: [Synth 8-6157] synthesizing module 'game_over' [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:23]
+	Parameter T5S bound to: 31'b0011101110011010110010100000000 
+	Parameter T15S bound to: 31'b1011001011010000010111100000000 
+	Parameter T02S bound to: 25'b1001100010010110100000000 
+	Parameter T05S bound to: 26'b10111110101111000010000000 
+	Parameter T0001S bound to: 17'b11000011010100000 
+	Parameter _0 bound to: 8'b11000000 
+	Parameter _1 bound to: 8'b11111001 
+	Parameter _2 bound to: 8'b10100100 
+	Parameter _3 bound to: 8'b10110000 
+	Parameter _4 bound to: 8'b10011001 
+	Parameter _5 bound to: 8'b10010010 
+	Parameter _6 bound to: 8'b10000010 
+	Parameter _7 bound to: 8'b11111000 
+	Parameter _8 bound to: 8'b10000000 
+	Parameter _9 bound to: 8'b10010000 
+	Parameter _S bound to: 8'b10010010 
+	Parameter _C bound to: 8'b11000110 
+	Parameter _R bound to: 8'b10001000 
+	Parameter _E bound to: 8'b00000110 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:153]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:186]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:197]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:208]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:219]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:230]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:241]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:254]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:267]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:280]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:293]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:306]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:319]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:332]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:345]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:357]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:364]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:376]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:383]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:390]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:397]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:404]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:416]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:423]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:430]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:437]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:444]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:451]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:458]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:465]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:472]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:181]
+INFO: [Synth 8-6155] done synthesizing module 'game_over' (5#1) [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_over.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Whack_a_mole' (6#1) [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/Whack_a_mole.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 488.105 ; gain = 156.227
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 488.105 ; gain = 156.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 488.105 ; gain = 156.227
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/移动通信网络实验/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/constrs_1/imports/移动通信网络实验/Whack_a_mole.xdc]
+Finished Parsing XDC File [E:/移动通信网络实验/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/constrs_1/imports/移动通信网络实验/Whack_a_mole.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/移动通信网络实验/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/constrs_1/imports/移动通信网络实验/Whack_a_mole.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Whack_a_mole_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Whack_a_mole_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 827.082 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 827.082 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 827.082 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 827.082 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 827.082 ; gain = 495.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 827.082 ; gain = 495.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 827.082 ; gain = 495.203
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "cnt_sig" won't be mapped to RAM because address size (30) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "dis_pos" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "difficulty" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "diff_led_show" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "cnt_sig" won't be mapped to RAM because address size (29) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "dis_pos" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "led_num" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "cnt_sig" won't be mapped to RAM because address size (30) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "dis_pos" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "cnt_down" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+INFO: [Synth 8-4471] merging register 'seg_code_2_reg[7:0]' into 'seg_code_1_reg[7:0]' [C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.srcs/sources_1/new/game_loop.v:188]
+INFO: [Synth 8-5546] ROM "cnt_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "out" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "out" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "out" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "out" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "out" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "state_led_show" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cnt_m1_sig" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "dis_pos" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "cnt_m1_sig" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "dis_pos" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dig_display" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "dig_display" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 827.082 ; gain = 495.203
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     30 Bit       Adders := 3     
+	   2 Input     29 Bit       Adders := 1     
+	   2 Input     27 Bit       Adders := 1     
+	   2 Input     26 Bit       Adders := 1     
+	   2 Input     25 Bit       Adders := 2     
+	   2 Input     17 Bit       Adders := 4     
+	   2 Input      7 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 6     
++---Registers : 
+	               30 Bit    Registers := 4     
+	               29 Bit    Registers := 1     
+	               27 Bit    Registers := 1     
+	               26 Bit    Registers := 1     
+	               25 Bit    Registers := 2     
+	               17 Bit    Registers := 4     
+	                8 Bit    Registers := 26    
+	                7 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
+	                3 Bit    Registers := 6     
+	                1 Bit    Registers := 15    
++---Muxes : 
+	   2 Input     30 Bit        Muxes := 6     
+	   2 Input     29 Bit        Muxes := 2     
+	   2 Input     28 Bit        Muxes := 1     
+	   3 Input     28 Bit        Muxes := 1     
+	   2 Input     27 Bit        Muxes := 3     
+	   4 Input     27 Bit        Muxes := 1     
+	   4 Input     26 Bit        Muxes := 1     
+	   2 Input     26 Bit        Muxes := 2     
+	   2 Input     25 Bit        Muxes := 4     
+	   2 Input     17 Bit        Muxes := 8     
+	  10 Input      8 Bit        Muxes := 4     
+	  11 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 46    
+	   4 Input      8 Bit        Muxes := 31    
+	   6 Input      8 Bit        Muxes := 5     
+	   8 Input      8 Bit        Muxes := 3     
+	   7 Input      8 Bit        Muxes := 5     
+	   5 Input      8 Bit        Muxes := 1     
+	  26 Input      8 Bit        Muxes := 1     
+	  18 Input      8 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 5     
+	   2 Input      3 Bit        Muxes := 7     
+	   4 Input      3 Bit        Muxes := 1     
+	  18 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 48    
+	  10 Input      1 Bit        Muxes := 3     
+	  11 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 9     
+	   6 Input      1 Bit        Muxes := 3     
+	   8 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 4     
+	   5 Input      1 Bit        Muxes := 3     
+	  18 Input      1 Bit        Muxes := 1     
+	  26 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Whack_a_mole 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 5     
++---Muxes : 
+	   7 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module game_start 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     30 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               30 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                8 Bit    Registers := 5     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     30 Bit        Muxes := 2     
+	   2 Input     17 Bit        Muxes := 2     
+	  10 Input      8 Bit        Muxes := 3     
+	  11 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 11    
+	   4 Input      8 Bit        Muxes := 9     
+	   6 Input      8 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+	  10 Input      1 Bit        Muxes := 3     
+	  11 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module game_ready 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     29 Bit       Adders := 1     
+	   2 Input     25 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	               29 Bit    Registers := 1     
+	               25 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     29 Bit        Muxes := 2     
+	   2 Input     25 Bit        Muxes := 2     
+	   2 Input     17 Bit        Muxes := 2     
+	   6 Input      8 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 3     
+Module game_count_down 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     30 Bit       Adders := 1     
+	   2 Input     27 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               30 Bit    Registers := 1     
+	               27 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     30 Bit        Muxes := 2     
+	   2 Input     27 Bit        Muxes := 2     
+	   2 Input     17 Bit        Muxes := 2     
+	   7 Input      8 Bit        Muxes := 2     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 5     
+	   8 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 2     
+Module game_loop 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     30 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               30 Bit    Registers := 2     
+	                8 Bit    Registers := 3     
+	                7 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     30 Bit        Muxes := 2     
+	   2 Input     28 Bit        Muxes := 1     
+	   3 Input     28 Bit        Muxes := 1     
+	   2 Input     27 Bit        Muxes := 1     
+	   4 Input     27 Bit        Muxes := 1     
+	   4 Input     26 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 6     
+	   4 Input      8 Bit        Muxes := 3     
+	   7 Input      8 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 3     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 21    
+	   4 Input      1 Bit        Muxes := 7     
+	   7 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+Module game_over 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     26 Bit       Adders := 1     
+	   2 Input     25 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               26 Bit    Registers := 1     
+	               25 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                8 Bit    Registers := 5     
+	                5 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     26 Bit        Muxes := 2     
+	   2 Input     25 Bit        Muxes := 2     
+	   2 Input     17 Bit        Muxes := 2     
+	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 28    
+	   4 Input      8 Bit        Muxes := 19    
+	   5 Input      8 Bit        Muxes := 1     
+	  26 Input      8 Bit        Muxes := 1     
+	  10 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   6 Input      8 Bit        Muxes := 1     
+	  18 Input      8 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 1     
+	  18 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 14    
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	  18 Input      1 Bit        Muxes := 1     
+	  26 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "difficulty" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "cnt_sig" won't be mapped to RAM because address size (30) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "p_2_out0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "cnt_sig" won't be mapped to RAM because address size (29) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cnt_sig" won't be mapped to RAM because address size (30) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cnt_down" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "dis_pos" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cnt_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "cnt_m1_sig" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+INFO: [Synth 8-3886] merging instance 'game_loop/loop_time_reg[0]' (FDCE) to 'game_loop/loop_time_reg[1]'
+INFO: [Synth 8-3886] merging instance 'game_loop/loop_time_reg[1]' (FDCE) to 'game_loop/loop_time_reg[2]'
+INFO: [Synth 8-3886] merging instance 'game_loop/loop_time_reg[2]' (FDCE) to 'game_loop/loop_time_reg[3]'
+INFO: [Synth 8-3886] merging instance 'game_loop/loop_time_reg[3]' (FDCE) to 'game_loop/loop_time_reg[4]'
+INFO: [Synth 8-3886] merging instance 'game_loop/loop_time_reg[4]' (FDCE) to 'game_loop/loop_time_reg[5]'
+INFO: [Synth 8-3886] merging instance 'game_loop/loop_time_reg[5]' (FDCE) to 'game_loop/loop_time_reg[6]'
+INFO: [Synth 8-3886] merging instance 'game_loop/loop_time_reg[6]' (FDCE) to 'game_loop/loop_time_reg[28]'
+INFO: [Synth 8-3886] merging instance 'game_loop/loop_time_reg[15]' (FDCE) to 'game_loop/loop_time_reg[23]'
+INFO: [Synth 8-3886] merging instance 'game_loop/loop_time_reg[16]' (FDCE) to 'game_loop/loop_time_reg[24]'
+INFO: [Synth 8-3886] merging instance 'game_loop/loop_time_reg[17]' (FDCE) to 'game_loop/loop_time_reg[25]'
+INFO: [Synth 8-3886] merging instance 'game_loop/loop_time_reg[18]' (FDCE) to 'game_loop/loop_time_reg[26]'
+INFO: [Synth 8-3886] merging instance 'game_loop/loop_time_reg[28]' (FDCE) to 'game_loop/loop_time_reg[29]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\game_loop/loop_time_reg[29] )
+INFO: [Synth 8-3886] merging instance 'game_loop/state_led_show_reg[0]' (FDCE) to 'game_loop/state_led_show_reg[1]'
+INFO: [Synth 8-3886] merging instance 'game_loop/state_led_show_reg[1]' (FDCE) to 'game_loop/state_led_show_reg[2]'
+INFO: [Synth 8-3886] merging instance 'game_count_down/state_led_show_reg[1]' (FDCE) to 'game_count_down/state_led_show_reg[2]'
+INFO: [Synth 8-3886] merging instance 'game_loop/state_led_show_reg[2]' (FDCE) to 'game_loop/state_led_show_reg[3]'
+INFO: [Synth 8-3886] merging instance 'game_loop/state_led_show_reg[3]' (FDCE) to 'game_loop/state_led_show_reg[4]'
+INFO: [Synth 8-3886] merging instance 'game_count_down/state_led_show_reg[3]' (FDCE) to 'game_count_down/state_led_show_reg[4]'
+INFO: [Synth 8-3886] merging instance 'game_loop/state_led_show_reg[4]' (FDCE) to 'game_loop/state_led_show_reg[5]'
+INFO: [Synth 8-3886] merging instance 'game_loop/state_led_show_reg[5]' (FDCE) to 'game_loop/state_led_show_reg[6]'
+INFO: [Synth 8-3886] merging instance 'game_count_down/state_led_show_reg[5]' (FDCE) to 'game_count_down/state_led_show_reg[6]'
+INFO: [Synth 8-3886] merging instance 'game_loop/state_led_show_reg[6]' (FDCE) to 'game_loop/state_led_show_reg[7]'
+INFO: [Synth 8-3886] merging instance 'game_count_down/seg_code_2_reg[0]' (FDCE) to 'game_count_down/seg_code_2_reg[3]'
+INFO: [Synth 8-3886] merging instance 'game_ready/seg_code_2_reg[0]' (FDE) to 'game_ready/seg_code_2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'game_ready/seg_code_2_reg[1]' (FDE) to 'game_ready/seg_code_2_reg[5]'
+INFO: [Synth 8-3886] merging instance 'game_ready/seg_code_2_reg[2]' (FDE) to 'game_ready/seg_code_2_reg[5]'
+INFO: [Synth 8-3886] merging instance 'game_ready/seg_code_2_reg[3]' (FDE) to 'game_ready/seg_code_2_reg[5]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\game_ready/seg_code_2_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\game_count_down/seg_code_2_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\game_ready/seg_code_2_reg[7] )
+INFO: [Synth 8-3886] merging instance 'game_count_down/seg_code_1_reg[0]' (FDCE) to 'game_count_down/seg_code_1_reg[5]'
+INFO: [Synth 8-3886] merging instance 'game_ready/seg_code_1_reg[0]' (FDE) to 'game_ready/seg_code_1_reg[6]'
+INFO: [Synth 8-3886] merging instance 'game_start/seg_code_1_reg[0]' (FDCE) to 'game_start/seg_code_1_reg[5]'
+INFO: [Synth 8-3886] merging instance 'game_loop/seg_code_1_reg[1]' (FDCE) to 'game_loop/seg_code_1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'game_ready/seg_code_1_reg[1]' (FDE) to 'game_ready/seg_code_1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'game_start/seg_code_1_reg[1]' (FDCE) to 'game_start/seg_code_1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'game_count_down/seg_code_1_reg[2]' (FDCE) to 'game_count_down/seg_code_1_reg[5]'
+INFO: [Synth 8-3886] merging instance 'game_count_down/seg_code_1_reg[3]' (FDCE) to 'game_count_down/seg_code_1_reg[5]'
+INFO: [Synth 8-3886] merging instance 'game_loop/seg_code_1_reg[4]' (FDCE) to 'game_loop/seg_code_1_reg[5]'
+INFO: [Synth 8-3886] merging instance 'game_count_down/seg_code_1_reg[4]' (FDCE) to 'game_count_down/seg_code_1_reg[5]'
+INFO: [Synth 8-3886] merging instance 'game_ready/seg_code_1_reg[4]' (FDE) to 'game_ready/seg_code_1_reg[6]'
+INFO: [Synth 8-3886] merging instance 'game_start/seg_code_1_reg[4]' (FDCE) to 'game_start/seg_code_1_reg[6]'
+INFO: [Synth 8-3886] merging instance 'game_ready/seg_code_1_reg[5]' (FDE) to 'game_ready/seg_code_1_reg[6]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\game_ready/seg_code_1_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\game_over/seg_code_1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\game_loop/seg_code_1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\game_count_down/seg_code_1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\game_ready/seg_code_1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\game_start/seg_code_1_reg[7] )
+INFO: [Synth 8-3886] merging instance 'game_over/dig_display_reg[0]' (FDCE) to 'game_over/dig_display_reg[4]'
+INFO: [Synth 8-3886] merging instance 'game_loop/dig_display_reg[0]' (FDCE) to 'game_loop/dig_display_reg[1]'
+INFO: [Synth 8-3886] merging instance 'game_count_down/dig_display_reg[0]' (FDCE) to 'game_count_down/dig_display_reg[1]'
+INFO: [Synth 8-3886] merging instance 'game_ready/dig_display_reg[0]' (FDRE) to 'game_ready/dig_display_reg[7]'
+INFO: [Synth 8-3886] merging instance 'game_start/dig_display_reg[0]' (FDCE) to 'game_start/dig_display_reg[4]'
+INFO: [Synth 8-3886] merging instance 'game_over/dig_display_reg[1]' (FDCE) to 'game_over/dig_display_reg[5]'
+INFO: [Synth 8-3886] merging instance 'game_loop/dig_display_reg[1]' (FDCE) to 'game_loop/dig_display_reg[2]'
+INFO: [Synth 8-3886] merging instance 'game_count_down/dig_display_reg[1]' (FDCE) to 'game_count_down/dig_display_reg[2]'
+INFO: [Synth 8-3886] merging instance 'game_ready/dig_display_reg[1]' (FDRE) to 'game_ready/dig_display_reg[7]'
+INFO: [Synth 8-3886] merging instance 'game_start/dig_display_reg[1]' (FDCE) to 'game_start/dig_display_reg[5]'
+INFO: [Synth 8-3886] merging instance 'game_over/dig_display_reg[2]' (FDCE) to 'game_over/dig_display_reg[6]'
+INFO: [Synth 8-3886] merging instance 'game_loop/dig_display_reg[2]' (FDCE) to 'game_loop/dig_display_reg[3]'
+INFO: [Synth 8-3886] merging instance 'game_count_down/dig_display_reg[2]' (FDCE) to 'game_count_down/dig_display_reg[5]'
+INFO: [Synth 8-3886] merging instance 'game_start/dig_display_reg[2]' (FDCE) to 'game_start/dig_display_reg[6]'
+INFO: [Synth 8-3886] merging instance 'game_over/dig_display_reg[3]' (FDCE) to 'game_over/dig_display_reg[7]'
+INFO: [Synth 8-3886] merging instance 'game_start/dig_display_reg[3]' (FDCE) to 'game_start/dig_display_reg[7]'
+INFO: [Synth 8-3886] merging instance 'game_loop/dig_display_reg[4]' (FDCE) to 'game_loop/dig_display_reg[5]'
+INFO: [Synth 8-3886] merging instance 'game_loop/dig_display_reg[5]' (FDCE) to 'game_loop/dig_display_reg[6]'
+INFO: [Synth 8-3886] merging instance 'game_count_down/dig_display_reg[5]' (FDCE) to 'game_count_down/dig_display_reg[6]'
+INFO: [Synth 8-3886] merging instance 'game_loop/dig_display_reg[6]' (FDCE) to 'game_loop/dig_display_reg[7]'
+INFO: [Synth 8-3886] merging instance 'game_count_down/dig_display_reg[6]' (FDCE) to 'game_count_down/dig_display_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\game_count_down/dig_display_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\game_ready/dig_display_reg[7] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 827.082 ; gain = 495.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+----------------+---------------+----------------+
+|Module Name | RTL Object     | Depth x Width | Implemented As | 
++------------+----------------+---------------+----------------+
+|game_over   | diff_led_show  | 32x8          | LUT            | 
+|game_over   | state_led_show | 32x8          | LUT            | 
+|game_over   | diff_led_show  | 32x8          | LUT            | 
+|game_over   | state_led_show | 32x8          | LUT            | 
++------------+----------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 827.082 ; gain = 495.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 827.082 ; gain = 495.203
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 856.746 ; gain = 524.867
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 856.746 ; gain = 524.867
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 856.746 ; gain = 524.867
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 856.746 ; gain = 524.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 856.746 ; gain = 524.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 856.746 ; gain = 524.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 856.746 ; gain = 524.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   170|
+|3     |LUT1   |     8|
+|4     |LUT2   |   125|
+|5     |LUT3   |   441|
+|6     |LUT4   |   160|
+|7     |LUT5   |   176|
+|8     |LUT6   |   195|
+|9     |FDCE   |   531|
+|10    |FDPE   |     2|
+|11    |FDRE   |     9|
+|12    |IBUF   |    15|
+|13    |OBUF   |    40|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------+----------------+------+
+|      |Instance          |Module          |Cells |
++------+------------------+----------------+------+
+|1     |top               |                |  1873|
+|2     |  game_count_down |game_count_down |   252|
+|3     |  game_loop       |game_loop       |   538|
+|4     |  game_over       |game_over       |   467|
+|5     |  game_ready      |game_ready      |   230|
+|6     |  game_start      |game_start      |   265|
++------+------------------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 856.746 ; gain = 524.867
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 856.746 ; gain = 185.891
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 856.746 ; gain = 524.867
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 170 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 856.746 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+179 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 856.746 ; gain = 537.590
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 856.746 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Administrator/Desktop/Whack_A_Mole_GAME/Whack_A_Mole_GAME.runs/synth_1/Whack_a_mole.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Whack_a_mole_utilization_synth.rpt -pb Whack_a_mole_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 28 09:19:46 2023...
